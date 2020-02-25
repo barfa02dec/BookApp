@@ -26,7 +26,7 @@ public class User {
 	private int user_id;
 	@NotNull
 	private String name;
-	@JsonIgnore
+	//@JsonIgnore
 	@NotNull
 	private String password;
 	@NotNull
